@@ -1,0 +1,134 @@
+.create-test,
+.edit-test,
+.test {
+    padding: 10px;
+}
+
+
+.tests {
+    max-width: 800px;
+    margin: auto;
+}
+
+.create-test .question {
+    margin-top: 20px;
+}
+
+.create-test .answer {
+    margin-top: 10px;
+}
+
+.test-list .test {
+    cursor: pointer;
+}
+
+.test-list .question ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.test-list .question li {
+    padding: 5px 0;
+}
+
+.test-list .question li.correct {
+    font-weight: bold;
+    color: green;
+}
+
+.mb-3 {
+    margin-bottom: 1rem !important;
+}
+
+.mt-2 {
+    margin-top: 0.5rem !important;
+}
+
+.mt-3 {
+    margin-top: 1rem !important;
+}
+
+.mt-4 {
+    margin-top: 1.5rem !important;
+}
+
+button {
+    margin-right: 10px;
+}
+
+.add-question-button {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.edit-button {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+}
+
+.edit-button:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.delete-button {
+    background-color: red;
+    border-color: red;
+    color: white;
+}
+
+.delete-button:hover {
+    background-color: darkred;
+    border-color: darkred;
+    color: white;
+}
+
+.add-question-button:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.link-button {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+}
+
+.link-button:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.settings-button {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+}
+
+.settings-button:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.add-answer-button {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.add-answer-button:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.save-test {
+    background-color: forestgreen;
+    border-color: forestgreen;
+    color: white;
+}
+
+.save-test:hover {
+    background-color: darkgreen;
+    border-color: darkgreen;
+    color: white;
+}
