@@ -33,7 +33,7 @@ public class UserService implements UserDetailsService {
 
     public void registerUser(User user) {
         userRepository.save(user);
-        String confirmationUrl = "http://localhost:8081/api/auth/confirm?token=" + generateVerificationToken(user);
+        String confirmationUrl = "https://212.193.24.154:8081/api/auth/confirm?token=" + generateVerificationToken(user);
         emailService.sendSimpleMessage(user.getEmail(), "Confirm your email", "To confirm your email, please click here: " + confirmationUrl);
     }
 

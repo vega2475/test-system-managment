@@ -110,7 +110,7 @@ public class UserController {
             user.setEnabled(false);
             user.setEmail(newEmail);
             userRepository.save(user);
-            String confirmationUrl = "http://localhost:8081/api/auth/confirmChangingEmail?token=" + userService.generateVerificationToken(user);
+            String confirmationUrl = "https://212.193.24.154:8081/api/auth/confirmChangingEmail?token=" + userService.generateVerificationToken(user);
             emailService.sendSimpleMessage(newEmail, "Email Change Confirmation.",
                     "Please confirm your email change by clicking on the link provided.\n" + confirmationUrl);
             return ResponseEntity.ok("Email successfully updated. Please check your new email for confirmation.");

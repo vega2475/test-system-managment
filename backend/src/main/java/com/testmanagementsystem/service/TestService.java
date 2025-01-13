@@ -199,6 +199,6 @@ public class TestService {
     }
 
     private String getBaseUrl() {
-        return "http://localhost:3000";
+        return "https://212.193.24.154:3000";
     }
 }
